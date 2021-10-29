@@ -13,3 +13,6 @@ Make sure that the necessary software is installed:
 * Open the project in the Visual Studio.
 * Restore the NuGet packages
 * Run the project
+
+## Blog reference
+[Performing CRUD Operations Using Google Firebase and Blazor [Webinar Show Notes]](https://www.syncfusion.com/blogs/post/performing-crud-operations-using-google-firebase-and-blazor-webinar-show-notes.aspx)
