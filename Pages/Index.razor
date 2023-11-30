@@ -1,0 +1,20 @@
+﻿@page "/"
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Data
+
+@using GoogleFirebase.Models
+<h1>Hello, world!</h1>
+
+<SfGrid TValue="Order" AllowPaging="true" Toolbar="@(new List<string>() { "Add", "Edit", "Delete", "Cancel", "Update" })">
+    <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true" Mode="EditMode.Dialog"></GridEditSettings>
+    <SfDataManager Url="api/Order" Adaptor="Adaptors.WebApiAdaptor"></SfDataManager>
+    <GridColumns>
+        <GridColumn Field="OrderId" IsPrimaryKey="true" IsIdentity="true" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field="CustomerName" Width="150"></GridColumn>
+        <GridColumn Field="Freight" Width="120"></GridColumn>
+        <GridColumn Field="ShipCountry" Width="150"></GridColumn>
+    </GridColumns>
+
+</SfGrid>
+
