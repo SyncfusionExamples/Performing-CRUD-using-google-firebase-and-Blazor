@@ -72,21 +72,7 @@ dotnet run
 - `DataAccess/OrderDataAccessLayer.cs` - Implements Firestore database operations including document creation, retrieval, update, and deletion.
 - `Interface/IOrder.cs` - Defines the contract for order management operations used by the data-access layer.
 - `Models/Order.cs` - Firestore-enabled data model containing order properties and validation attributes.
-- `Program.cs` - Configures application startup, dependency registration, routing, and middleware.
-- `App.razor` - Root Razor component for the Blazor application.
-- `_Imports.razor` - Contains shared namespace imports used throughout the application.
-- `GoogleFirebase.csproj` - Project file containing package references and target framework configuration.
-- `GoogleFirebase.sln` - Visual Studio solution file.
-- `appsettings.json` - Application configuration settings.
-- `appsettings.Development.json` - Development environment configuration settings.
-- `Shared/MainLayout.razor` - Main application layout component.
-- `Shared/NavMenu.razor` - Navigation menu component.
-- `Pages/_Host.cshtml` - Blazor Server host page.
-- `Pages/Error.cshtml` - Error handling UI page.
-- `Pages/Error.cshtml.cs` - Code-behind file for the error page.
 - `Data/` - Contains application data services and supporting sample data classes.
-- `Properties/launchSettings.json` - Launch profile and local debugging configuration.
-- `wwwroot/` - Static web assets including CSS, JavaScript, images, and client-side resources.
 
 ## Support and Feedback
 
